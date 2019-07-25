@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebRtc</title>
+</head>
+
+<body>
+    Your Id : <input type="text" id="id" /> <br />
+    Is Broadcaster : <input type="checkbox" id="isSender" checked /><br />
+    Broadcaster id : <input type="text" id="broadcaster" /> <br />
+    <hr/>
+    <video id="video" controls></video>
+    <hr/>
+    <input type="text" id="msgInput" />
+    <button id="sendBtn">Send</button>
+    <button id="connectBtn">Connect</button>
+    <button id="disConnectBtn">Disconnect</button>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/adapter-latest.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
